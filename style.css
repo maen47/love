@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffeef2;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.gif {
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #d63384;
+    margin-bottom: 30px;
+}
+
+/* เพิ่มส่วนนี้เข้าไปในไฟล์ CSS เดิม */
+#noBtn {
+    position: absolute; /* ทำให้ปุ่มลอยตัวเพื่อสุ่มตำแหน่ง */
+    transition: all 0.2s ease; /* เพิ่มความสมูทตอนย้ายที่ */
+    z-index: 999;
+}
+
+.btn-group {
+    position: relative; /* เพื่อให้ปุ่ม No อ้างอิงตำแหน่งได้ */
+    height: 100px; 
+    margin-top: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#yesBtn {
+    background-color: #4caf50;
+    color: white;
+}
+
+#noBtn {
+    background-color: #f44336;
+    color: white;
+}
